@@ -14,3 +14,7 @@ A port of the Solarized Dark theme for Hyperterm#Solarized Dark for HyperTerm
   ],
   ```
 3. Reload HyperTerm by pressing `Cmd + Shft + R`
+
+#### License
+
+MIT
