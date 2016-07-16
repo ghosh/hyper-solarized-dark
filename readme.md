@@ -4,7 +4,7 @@ A port of the Solarized Dark theme for Hyperterm#Solarized Dark for HyperTerm
 
 ![Solarized Dark Hyper Term](https://dl.dropboxusercontent.com/u/29130579/hyperterm-solarized-dark.png)
 
-#### Installation
+### Installation
 1. Open HyperTerm's preferences by pressing `Cmd+,` or manually at `~/.hyperterm.js`.
 2. Find and Update the plugins array to include `hyperterm-solarized-dark`:  
 
@@ -20,6 +20,6 @@ A port of the Solarized Dark theme for Hyperterm#Solarized Dark for HyperTerm
 - [@jxnblk](https://github.com/jxnblk)
 - [@mdo](https://github.com/mdo)
 
-#### License
 
+### License
 MIT
