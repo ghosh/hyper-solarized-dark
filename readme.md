@@ -1,6 +1,6 @@
 #Solarized Dark for HyperTerm
 
-A port of the Solarized Dark theme for Hyperterm#Solarized Dark for HyperTerm
+A port of the [Solarized Dark](http://ethanschoonover.com/solarized) theme for [Hyperterm](https://hyperterm.org/)
 
 ![Solarized Dark Hyper Term](https://dl.dropboxusercontent.com/u/29130579/hyperterm-solarized-dark.png)
 
