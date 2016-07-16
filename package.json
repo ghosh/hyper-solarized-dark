@@ -10,6 +10,14 @@
     "theme",
     "solarized"
   ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Ghosh/hyperterm-solarized-dark.git"
+  },
   "author": "Indrashish Ghosh",
-  "license": "MIT"
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Ghosh/hyperterm-solarized-dark/issues"
+  },
+  "homepage": "https://github.com/Ghosh/hyperterm-solarized-dark#readme"
 }
