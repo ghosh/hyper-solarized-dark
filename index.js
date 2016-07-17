@@ -1,6 +1,7 @@
 const backgroundColor = '#002b36'
 const foregroundColor = '#839496'
 const cursorColor = foregroundColor
+const borderColor = 'rgba(38, 139, 210, 0.3)'
 
 const colors = [
   backgroundColor,
@@ -32,4 +33,34 @@ exports.middleware = (store) => (next) => (action) => {
       action.config.colors = colors
   }
   next(action)
+}
+
+
+exports.decorateConfig = config => {
+
+  return Object.assign({}, config, {
+    foregroundColor,
+    backgroundColor,
+    borderColor,
+    cursorColor,
+    colors,
+    termCSS: `
+      ${config.termCSS || ''}
+      .cursor-node {
+        mix-blend-mode: difference;
+      }
+    `,
+    css: `
+      ${config.css || ''}
+      .tab_tab {
+        color: ${foregroundColor} !important;
+        background-color: ${backgroundColor};
+      }
+      .tab_tab.tab_active {
+        font-weight: bold;
+        color: ${backgroundColor} !important;
+        background-color: ${foregroundColor};
+      }
+    `
+  })
 }
