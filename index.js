@@ -1,6 +1,8 @@
 const backgroundColor = '#002b36'
 const foregroundColor = '#839496'
-const cursorColor = foregroundColor
+const cursorColor = '#b58900'
+const borderColor = 'rgba(38, 139, 210, 0.3)'
+const activeTabBorderColor = '#2aa198' // yellow
 
 const colors = [
   backgroundColor,
@@ -40,24 +42,32 @@ exports.decorateConfig = config => {
   return Object.assign({}, config, {
     foregroundColor,
     backgroundColor,
+    borderColor,
     cursorColor,
     colors,
     termCSS: `
       ${config.termCSS || ''}
-      .cursor-node {
-        mix-blend-mode: difference;
-      }
     `,
     css: `
       ${config.css || ''}
+      * {
+      	-webkit-font-feature-settings: "liga" on, "calt" on, "dlig" on !important;
+      	text-rendering: optimizeLegibility !important;
+        font-weight: 500;
+      }
+      .cursor-node {
+      	width: .325rem !important;
+      }
       .tab_tab {
         color: ${foregroundColor} !important;
         background-color: ${backgroundColor};
       }
       .tab_tab.tab_active {
+        border: transparent !important;
         font-weight: bold;
-        color: ${backgroundColor} !important;
-        background-color: ${foregroundColor};
+        color: #b3b3b3 !important;
+        background-color: #001f27;
+        border-bottom: solid 3px ${activeTabBorderColor} !important;
       }
     `
   })
