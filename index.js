@@ -12,12 +12,12 @@ const colors = [
   '#268bd2', // blue
   '#6c71c4', // violet
   '#2aa198', // cyan
-  '#657b83', // light gray
+  '#eee8d5', // light gray
   '#586e75', // medium gray
   '#dc322f', // red
-  '#859900', // green
-  '#b58900', // yellow
-  '#268bd2', // blue
+  '#586e75', // green
+  '#657b83', // yellow
+  '#839496', // blue
   '#6c71c4', // violet
   '#2aa198', // cyan
   '#ffffff', // white
