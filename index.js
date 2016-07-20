@@ -2,7 +2,7 @@ const backgroundColor = '#002b36'
 const foregroundColor = '#839496'
 const cursorColor = '#b58900'
 const borderColor = 'rgba(38, 139, 210, 0.3)'
-const activeTabBorderColor = '#2aa198' // yellow
+const activeTabBorderColor = '#2aa198' // cyan
 
 const colors = [
   backgroundColor,
@@ -24,17 +24,6 @@ const colors = [
   foregroundColor
 ]
 
-exports.middleware = (store) => (next) => (action) => {
-  switch (action.type) {
-    case 'CONFIG_LOAD':
-    case 'CONFIG_RELOAD':
-      action.config.foregroundColor = foregroundColor
-      action.config.backgroundColor = backgroundColor
-      action.config.cursorColor = cursorColor
-      action.config.colors = colors
-  }
-  next(action)
-}
 
 
 exports.decorateConfig = config => {
