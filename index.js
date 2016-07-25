@@ -44,19 +44,21 @@ exports.decorateConfig = config => {
       	text-rendering: optimizeLegibility !important;
         font-weight: 500;
       }
-      .cursor-node {
-      	width: .325rem !important;
+      .tabs_list {
+      	border: 0;
       }
       .tab_tab {
         color: ${foregroundColor} !important;
-        background-color: ${backgroundColor};
+        background-color: #001f27;
+      }
+      .tab_tab:before {
+      	border: 0;
       }
       .tab_tab.tab_active {
         border: transparent !important;
         font-weight: bold;
         color: #b3b3b3 !important;
-        background-color: #001f27;
-        border-bottom: solid 3px ${activeTabBorderColor} !important;
+        background-color: ${backgroundColor};
       }
     `
   })
