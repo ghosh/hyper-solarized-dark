@@ -5,22 +5,22 @@ const borderColor = 'rgba(38, 139, 210, 0.3)'
 const activeTabBorderColor = '#2aa198' // cyan
 
 const colors = {
-  black:          '#002b36',
-  red:            '#dc322f',
-  green:          '#859900',
-  yellow:         '#b58900',
-  blue:           '#268bd2',
-  magenta:        '#6c71c4',
-  cyan:           '#2aa198',
-  white:          '#eee8d5',
-  lightBlack:     '#586e75',
-  lightRed:       '#dc322f',
+  lightBlack:     '#002b36',
+  black:          '#073642',
   lightGreen:     '#586e75',
   lightYellow:    '#657b83',
   lightBlue:      '#839496',
+  lightCyan:      '#93a1a1',
+  white:          '#eee8d5',
+  lightWhite:     '#fdf6e3',
+  yellow:         '#b58900',
+  lightRed:       '#cb4b16',
+  red:            '#dc322f',
+  magenta:        '#d33682',
   lightMagenta:   '#6c71c4',
-  lightCyan:      '#2aa198',
-  lightWhite:     '#ffffff',
+  blue:           '#268bd2',
+  cyan:           '#2aa198',
+  green:          '#859900'
 }
 
 
