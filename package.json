@@ -1,11 +1,13 @@
 {
-  "name": "hyperterm-solarized-dark",
+  "name": "hyper-solarized-dark",
   "version": "0.1.8",
-  "description": "Hyperterm theme using the dark Solarized colors",
+  "description": "Hyper theme using the dark Solarized colors",
   "main": "index.js",
   "keywords": [
     "hyperterm",
     "hyperterm-theme",
+    "hyper",
+    "hyper-theme",
     "colors",
     "theme",
     "solarized"
