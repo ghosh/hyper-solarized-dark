@@ -1,25 +1,21 @@
-#Solarized Dark for HyperTerm
+#Solarized Dark theme for Hyper
 
-A port of the [Solarized Dark](http://ethanschoonover.com/solarized) theme for [Hyperterm](https://hyperterm.org/)
+A port of the [Solarized Dark](http://ethanschoonover.com/solarized) theme for [Hyper](htps://hyper.is)
 
-![Solarized Dark Hyper Term](https://dl.dropboxusercontent.com/u/29130579/hyperterm-solarized-dark.png)
+![Solarized Dark Hyper](https://dl.dropboxusercontent.com/u/29130579/hyperterm-solarized-dark.png)
 
 ### Installation
-1. Open HyperTerm's preferences by pressing `Cmd+,` or manually at `~/.hyperterm.js`.
-2. Find and Update the plugins array to include `hyperterm-solarized-dark`:  
+1. Open Hyper's preferences by pressing `Cmd+,`.
+2. Find and Update the plugins array to include `hyper-solarized-dark`:  
 
   ```js
   plugins: [  
-    'hyperterm-solarized-dark'  
+    'hyper-solarized-dark'  
   ],
   ```
-3. Reload HyperTerm by pressing `Cmd + Shft + R`
+3. Reload Hyper by pressing `Cmd + Shft + R`
 
 
-### Credits
-- [@jxnblk](https://github.com/jxnblk)
-- [@mdo](https://github.com/mdo)
-
-
-### License
-MIT
+```
+License - MIT
+```
