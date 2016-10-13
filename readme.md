@@ -1,6 +1,6 @@
 #Solarized Dark theme for Hyper
 
-A port of the [Solarized Dark](http://ethanschoonover.com/solarized) theme for [Hyper](htps://hyper.is)
+A port of the [Solarized Dark](http://ethanschoonover.com/solarized) theme for [Hyper.app](https://hyper.is)
 
 ![Solarized Dark Hyper](https://dl.dropboxusercontent.com/u/29130579/hyperterm-solarized-dark.png)
 
