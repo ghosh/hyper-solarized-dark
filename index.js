@@ -1,8 +1,7 @@
 const backgroundColor = '#002b36'
 const foregroundColor = '#839496'
 const cursorColor = 'rgba(181, 137, 0, 0.6)'
-const borderColor = 'rgba(38, 139, 210, 0.3)'
-const activeTabBorderColor = '#2aa198' // cyan
+const borderColor = 'transparent'
 
 const colors = {
   lightBlack:     '#002b36',
@@ -46,9 +45,13 @@ exports.decorateConfig = config => {
       .tabs_list {
       	border: 0;
       }
+      .tabs_nav {
+      	background-color: #001f27 !important;
+      }
       .tab_tab {
         color: ${foregroundColor} !important;
         background-color: #001f27;
+				border-color: ${borderColor} !important;
       }
       .tab_tab:before {
       	border: 0;
@@ -58,6 +61,9 @@ exports.decorateConfig = config => {
         font-weight: bold;
         color: #b3b3b3 !important;
         background-color: ${backgroundColor};
+      }
+      .splitpane_divider {
+      	background-color: #001f27 !important;	
       }
     `
   })
