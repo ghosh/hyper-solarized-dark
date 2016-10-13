@@ -21,5 +21,8 @@
   "bugs": {
     "url": "https://github.com/Ghosh/hyper-solarized-dark/issues"
   },
-  "homepage": "https://github.com/Ghosh/hyper-solarized-dark#readme"
+  "homepage": "https://github.com/Ghosh/hyper-solarized-dark#readme",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  }
 }
