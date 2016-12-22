@@ -18,7 +18,7 @@ A port of the [Solarized Dark](http://ethanschoonover.com/solarized) theme for [
 
 
 ### Related
-- [Solarized Light Theme](https://github.com/Ghosh/hyper-solarized-dark)
+- [Solarized Light Theme](https://github.com/Ghosh/hyper-solarized-light)
 
 ```
 License - MIT
