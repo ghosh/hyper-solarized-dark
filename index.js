@@ -38,7 +38,6 @@ exports.decorateConfig = config => {
     css: `
       ${config.css || ''}
       * {
-      	-webkit-font-feature-settings: "liga" on, "calt" on, "dlig" on;
       	text-rendering: optimizeLegibility;
         font-weight: 500;
       }
