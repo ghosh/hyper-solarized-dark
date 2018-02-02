@@ -50,7 +50,7 @@ exports.decorateConfig = config => {
       .tab_tab {
         color: ${foregroundColor};
         background-color: #001f27;
-				border-color: ${borderColor};
+        border-color: ${borderColor};
       }
       .tab_tab:before {
       	border: 0;
