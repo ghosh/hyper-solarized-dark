@@ -4,7 +4,7 @@ const cursorColor = 'rgba(181, 137, 0, 0.6)'
 const borderColor = 'transparent'
 
 const colors = {
-  lightBlack:     '#002b36',
+  lightBlack:     '#586e75',
   black:          '#073642',
   lightGreen:     '#586e75',
   lightYellow:    '#657b83',
