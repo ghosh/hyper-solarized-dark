@@ -1,5 +1,5 @@
-const backgroundColor = '#002b36'
-const foregroundColor = '#839496'
+const backgroundColor = '#073642'
+const foregroundColor = '#eee8d5'
 const cursorColor = 'rgba(181, 137, 0, 0.6)'
 const borderColor = 'transparent'
 
